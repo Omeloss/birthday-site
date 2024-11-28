@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to bottom, #ff9a9e, #fad0c4);
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: #ff6f61;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        .button {
+            padding: 10px 20px;
+            background: #ff6f61;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .button:hover {
+            background: #e05a4f;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Happy Birthday, [Her Name]!</h1>
+        <p>Wishing you all the happiness, laughter, and love on your special day. 🎉🎂</p>
+        <a class="button" href="#" onclick="playMusic()">Click to Celebrate!</a>
+    </div>
+    <audio id="birthdaySong" src="https://www.youtube.com/watch?v=umop5FTVx4A"></audio>
+
+    <script>
+        function playMusic() {
+            const audio = document.getElementById('birthdaySong');
+            audio.play();
+            alert("EKAAA LOVEEE YOU< ES GASAOCARI SIMGERA SHEN GEDGVNEBAAAAAAA🎉🎂!");
+        }
+    </script>
+</body>
+</html>
